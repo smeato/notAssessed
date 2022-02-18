@@ -127,3 +127,6 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 # Media 
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
+
+#login
+LOGIN_URL = 'rango:login'
